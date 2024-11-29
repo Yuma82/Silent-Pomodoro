@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Pomodoro Timer</h1>
+
+        <div id="length-controls">
+            <!-- Break Length Control -->
+            <div id="break-control" class="control-section">
+                <h2 id="break-label">Break Length</h2>
+                <div class="control-group">
+                    <button id="break-decrement">⬇</button>
+                    <input id="break-length" type="number" value="5" min="1" max="60">
+                    <button id="break-increment">⬆</button>
+                </div>
+            </div>
+
+            <!-- Session Length Control -->
+            <div id="session-control" class="control-section">
+                <h2 id="session-label">Session Length</h2>
+                <div class="control-group">
+                    <button id="session-decrement">⬇</button>
+                    <input id="session-length" type="number" value="25" min="1" max="60">
+                    <button id="session-increment">⬆</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timer Display -->
+        <div id="timer">
+            <h2 id="timer-label">Session</h2>
+            <div id="time-left">25:00</div>
+        </div>
+
+        <!-- Controls -->
+        <div id="controls">
+            <button id="start_stop">▶️</button>
+            <button id="reset">🔄</button>
+        </div>
+
+        <!-- Beep Sound -->
+        <audio id="beep" src="https://www.soundjay.com/button/sounds/beep-07.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
