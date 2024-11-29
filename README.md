@@ -12,10 +12,8 @@ Pomodoroタイマーは、作業時間と休憩時間を繰り返すことで集
 - **既製品の価格**：視覚的通知機能を備えた製品（例：[MINEEタイマー](https://mineetimer.com/ja/products/minee3)）があるものの、価格が約1万円と高額で、学生には手が届きにくい。
 - **既製アプリ**：Pomodoro機能を持つアプリは多いが、無音通知機能を持つアプリが見当たらない。
 
-![MINEEタイマー](img/MINEE.png)
 
-
-
+<img src="img/MINEE.png" alt="MINEEタイマー" width="400">
 
 ## 自分で作ればいいじゃん！
 
