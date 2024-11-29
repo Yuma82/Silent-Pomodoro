@@ -24,6 +24,9 @@ Pomodoroタイマーは、作業時間と休憩時間を繰り返すことで集
 
 
 ## タイマーの仕様
+<div align="center">
+  <img src="img/demo-timer.png" alt="Silent-Pomodoro-demo" width="350">
+</div>
 
 ### 基本機能
 
